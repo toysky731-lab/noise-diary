@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>支援 · 分貝嘈音日記</title>
+<style>
+  :root { --bg:#fff; --fg:#1a1a1a; --dim:#5b6e74; --line:#e4e8ea; --tint:#B4471F; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0e1112; --fg:#eaf0f1; --dim:#93a2a7; --line:#232a2c; --tint:#E8975A; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin:0 auto; max-width:38rem; padding:3rem 1.25rem 6rem;
+    background:var(--bg); color:var(--fg);
+    font:16px/1.75 -apple-system,"PingFang HK","PingFang TC",system-ui,sans-serif;
+  }
+  h1 { font-size:1.6rem; line-height:1.3; margin:0 0 .25rem; }
+  h2 { font-size:1.1rem; margin:2.5rem 0 .5rem; }
+  .meta { color:var(--dim); font-size:.9rem; margin:0 0 2rem; }
+  p, li { color:var(--fg); }
+  ul { padding-left:1.25rem; }
+  li { margin:.35rem 0; }
+  strong { font-weight:600; }
+  a { color:var(--tint); }
+  hr { border:0; border-top:1px solid var(--line); margin:2.5rem 0; }
+  .lead { font-size:1.05rem; }
+  code { font:13px ui-monospace,SFMono-Regular,Menlo,monospace; background:var(--line); padding:.1rem .3rem; border-radius:4px; }
+</style>
+</head>
+<body>
+
+<h1>支援</h1>
+<p class="meta">分貝嘈音日記 · 最後更新：2026年8月30日</p>
+
+<h2>個讀數準唔準？</h2>
+<p>App 用行動裝置嘅麥克風量度，<strong>唔係經校準嘅專業聲級計</strong>，數值只供參考。讀數用 dBA —— 按人耳靈敏度計，會扣低頻，噪音法例同投訴一般都係用呢個標準。</p>
+
+<h2>點解要長按先停到記錄？</h2>
+<p>防止喺袋入面或者瞓覺翻身時誤觸，一晚嘅記錄唔會就咁冇咗。按住一秒就得。</p>
+
+<h2>點解錄緊嗰陣播唔到片段？</h2>
+<p>因為聲會由喇叭出返入麥克風，變成一個新嘅「噪音事件」，份記錄會自己污染自己。停咗記錄之後，喺報告入面就可以聽返。</p>
+
+<h2>事件片段錄幾長？</h2>
+<p>每段 5 秒：超標前 2 秒，之後 3 秒。前面嗰兩秒好重要 —— 超標嗰刻件事已經發生咗，冇前段就會走漏你想證明嗰下。</p>
+
+<h2>鼻鼾偵測準唔準？</h2>
+<p>App 靠事件之間嘅<strong>節奏</strong>去分辨，唔係聲學分類器。任何有規律嘅重複聲響都可能被當成鼻鼾。你可以喺事件列表逐項改返分類。</p>
+<p>另外：<strong>本 App 只記錄音量，並不能診斷睡眠窒息症或其他健康狀況。</strong>如有疑慮，請諮詢醫生。</p>
+
+<h2>Pro 買咗啲咩？</h2>
+<p>只有<strong>無限歷史記錄</strong>。記錄、鼻鼾偵測、事件片段同匯出報告全部免費。免費版顯示最近 5 次記錄；舊嘅記錄<strong>冇被刪走</strong>，解鎖之後即刻見返。</p>
+
+<h2>換咗電話 / 重裝咗</h2>
+<p>喺 Pro 頁面撳「回復購買」。記錄本身存喺舊機，唔會跟住轉移。</p>
+
+<h2>點樣刪除所有嘢</h2>
+<p>設定 → 刪除所有記錄，會即時刪除所有量度、記錄同錄音片段。或者直接刪除 App。</p>
+
+<h2>聯絡</h2>
+<p>Bug、建議、投訴：<a href="mailto:amigo.choi@fano.ai">amigo.choi@fano.ai</a></p>
+
+</body>
+</html>
